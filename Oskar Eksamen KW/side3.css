@@ -1,0 +1,93 @@
+body {
+    overflow: hidden;
+}
+
+/*css så bildet skal justere seg ift til container*/
+.backPic {
+    width: 100%;
+    height: auto;
+}
+
+/* container posisjon og størrelse*/
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* Knapp Posisjon */
+
+.container button {
+    position: absolute;
+    padding: 15px 30px;
+    left: 400px;
+    right: auto;
+    top: 50%;
+}
+
+/* Felles liten text-egenskaper */
+
+.container h3 {
+    position: absolute;
+    color: white;
+}
+
+/* liten text posisjonering */
+
+.mon1 {
+    top: 10%;
+    left: 230px;
+}
+
+.mon2 {
+    top: 36%;
+    left: 290px;
+}
+
+.mon3 {
+    top: 75%;
+    left: 60px;
+}
+
+.mon4 {
+    top: 82%;
+    left: 700px;
+}
+
+.mon5 {
+    top: 62%;
+    left: 800px;
+}
+
+.mon6 {
+    top: 30%;
+    left: 750px;
+}
+
+.mon7 {
+    top: 5%;
+    left: 900px;
+}
+
+/* knapp styling og hover effekt */
+
+.container button {
+    color: yellow;
+    background: black;
+    font-size: 20px;
+    border-color: black;
+    transition: 0.8s;
+}
+
+.container button:hover {
+    color: #fff;
+    
+}
+
+
+
